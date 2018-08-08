@@ -20,4 +20,5 @@ from . import view
 
 urlpatterns = [
     url(r'^hello$', view.hello),
+    url(r'^admin$', view.hello),
 ]
